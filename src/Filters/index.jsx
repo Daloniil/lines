@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef} from 'react';
 import * as d3 from 'd3';
 import useScrollDetect from "../Scroll";
 
@@ -11,6 +11,11 @@ const test = {
         domain: 'Default SXP Domain',
         destination: 'ACI_1',
         status: true
+    },{
+        source: 'ISE',
+        domain: 'Default SXP Domain',
+        destination: 'ACI_3',
+        status: false
     }, {
         source: 'ISE',
         domain: 'SXP Domain 2',
